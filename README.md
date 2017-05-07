@@ -8,8 +8,8 @@ is limited to a 512x512 pixel format.
 
 ### Requirements
 
-LibTiff
-OpenGL
++ LibTiff
++ OpenGL
 
 install (Ubuntu): sudo apt-get install libtiff5-dev freeglut3-dev
 
