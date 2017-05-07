@@ -20,3 +20,18 @@ compile: open a terminal and run
          
 ### Run
 `./trackball`
+
+### Keyboard Controls
+F1 = XY cut
+F2 = momentum map
+F3 = energy momentum map
+
+F5: switch between color and bw mode
+F6: switch between plane and pointcloud mode
+ESC: exit
+
+m: zoom in
+n: zoom out
+r = top view
+t = side view
+
