@@ -1,0 +1,1 @@
+Program("trackball",["trackball.cpp","GLVector3f.cpp","GLQuaternion4f.cpp"],LIBS=["glut","GL","GLU","tiff"])
