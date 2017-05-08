@@ -12,7 +12,7 @@
 
 
 /** ======================================================================
- * 									ENUMS
+ *                     ENUMS
  *  ======================================================================
  */
 enum ResolutionMode
@@ -42,7 +42,7 @@ enum DataMode
 
 
 /** ======================================================================
- * 									 VARIABLES
+ *                   VARIABLES
  *  ======================================================================
  */
 
@@ -109,7 +109,7 @@ GLint no_slices = 100;
 
 
 /** ======================================================================
- * 									 FUNCTIONS 								|
+ *                     FUNCTIONS
  *  ======================================================================
  */
 
@@ -158,7 +158,7 @@ GLint main(int _argc, char** _argv){
 	glutInit(&_argc, _argv);
 	glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH);
 	glutInitWindowSize(viewport_width,viewport_height);
-	glutCreateWindow("3D");
+	glutCreateWindow("Trackball Demo");
 	glutDisplayFunc(render);
 	glutMouseFunc(processMouse);
 	glutMotionFunc(processMouseActiveMotion);
@@ -262,7 +262,7 @@ GLvoid render()
 
 
 		// ----------------------------------------------------
-		// 						DRAW DATA POINTS
+		//            DRAW DATA POINTS
 		// ----------------------------------------------------
 		if(render_mode == RENDER_ALL)
 		{
@@ -1126,7 +1126,7 @@ GLvoid downsample()
 
 	/**
 	 *  TO DO: maybe downsampling should be adjusted to an max_average rather than using a single max
-	 * 			-> false color scale will be much more efficient in resolution in HIGH_RES mode
+	 *  -> false color scale will be much more efficient in resolution in HIGH_RES mode
 	 */
 
 	GLushort max_count_rate = 1; //>= 1 because of the devision
